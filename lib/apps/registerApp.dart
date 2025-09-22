@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      // 👇 أول شاشة هتفتح
+      
       home: const SignInScreen(),
 
-      // 👇 تعريف الـ routes عشان التنقل يبقى سهل
+  
       routes: {
         '/signin': (context) => const SignInScreen(),
         '/register': (context) => const RegisterScreen(),
