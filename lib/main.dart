@@ -11,7 +11,7 @@ import 'screens/profile_screen.dart';
 import 'screens/report_form_screen.dart';
 import 'screens/sign_in_screen.dart';
 import 'screens/splash_screen.dart';
-import 'screens/register_screen.dart'; // ✅ هنا بدل RegisterApp
+import 'screens/register_screen.dart'; 
 
 class FinalApp extends StatelessWidget {
   const FinalApp({super.key});
@@ -25,7 +25,7 @@ class FinalApp extends StatelessWidget {
         '/': (context) => SplashScreen(),
         '/language': (context) => LanguageSelectionScreen(),
         '/signin': (context) => SignInScreen(),
-        '/register': (context) => RegisterScreen(), // ✅ صح
+        '/register': (context) => RegisterScreen(), 
         "/home": (context) => HomeScreen(),
 
         '/complaints': (context) => ComplaintsPage(),
