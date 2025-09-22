@@ -1,7 +1,7 @@
 import 'dart:async';
 
 class AuthService {
-  // ✅ البيانات الصحيحة الوحيدة المسموح بيها
+
   static const String _validEmail = "test@example.com";
   static const String _validPassword = "123456";
   static const String _validPhone = "01094323367";
@@ -9,7 +9,7 @@ class AuthService {
   static const String _validBirthDate = "2000-01-01";
   static const String _validGender = "Male";
 
-  // ✅ دالة التسجيل
+
   static Future<String> registerUser({
     required String email,
     required String phone,
@@ -38,7 +38,7 @@ class AuthService {
     }
   }
 
-  // ✅ دالة تسجيل الدخول
+
   static Future<String> loginUser({
     required String email,
     required String password,
