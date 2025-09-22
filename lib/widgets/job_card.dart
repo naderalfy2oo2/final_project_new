@@ -23,7 +23,7 @@ class JobCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      // تأكد إن ده ارتفاع كافي لكل المحتوى الداخلي
+      
       width: 400,
       child: Card(
         child: Padding(
@@ -38,7 +38,7 @@ class JobCard extends StatelessWidget {
                   child: Image.asset(
                     imageAsset,
                     fit: BoxFit.cover,
-                    // ارتفاع الصورة
+                    
                   ),
                 ),
                 const SizedBox(height: 16),
