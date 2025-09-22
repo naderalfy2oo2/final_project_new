@@ -1,0 +1,55 @@
+John Doe
+Email: john.doe@example.com | Phone: +1 (555) 123-4567 | Location: Cairo, Egypt
+LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+
+PROFESSIONAL SUMMARY
+--------------------
+Experienced Software Engineer with 5+ years building web and mobile applications.
+Strong background in Flutter, React, and backend services. Passionate about clean code,
+testing, and mentoring junior developers.
+
+SKILLS
+------
+- Languages: Dart, JavaScript, TypeScript, Python
+- Frameworks: Flutter, React, Node.js, Express
+- Tools: Git, Docker, Firebase, AWS
+- Other: REST APIs, CI/CD, Unit Testing, Agile/Scrum
+
+EXPERIENCE
+----------
+Software Engineer — Acme Tech, Cairo, Egypt
+Jan 2021 – Present
+- Designed and implemented a Flutter-based mobile app used by 50k+ users.
+- Built RESTful APIs in Node.js; improved performance by 30% through query optimization.
+- Led a team of 4 developers; introduced unit testing and code reviews.
+
+Frontend Developer — BrightWeb Solutions, Remote
+Jun 2018 – Dec 2020
+- Developed responsive React applications for e-commerce clients.
+- Improved page load times by implementing code-splitting and lazy loading.
+- Collaborated with designers to translate mockups into accessible interfaces.
+
+EDUCATION
+---------
+B.Sc. in Computer Science — Cairo University, Cairo, Egypt
+2014 – 2018
+
+PROJECTS
+--------
+• JobFinder App — Mobile app built with Flutter and Firebase for job searching.
+  - Implemented authentication, job listings, and file uploads.
+
+• Portfolio Website — React + Vite site showcasing projects and blog posts.
+
+CERTIFICATIONS
+--------------
+- Flutter & Dart — Udemy (2020)
+- AWS Certified Developer – Associate (2022)
+
+LANGUAGES
+---------
+- Arabic (Native), English (Fluent)
+
+REFERENCES
+----------
+Available upon request.
