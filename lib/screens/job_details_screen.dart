@@ -71,7 +71,7 @@ class JobDetailsScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
 
-                    // Tags
+                  
                     Wrap(
                       spacing: 8,
                       children: [
@@ -88,7 +88,7 @@ class JobDetailsScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
 
-                    // Views
+                    
                     Row(
                       children: [
                         Icon(Icons.remove_red_eye,
@@ -102,7 +102,7 @@ class JobDetailsScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
 
-                    // Job Details
+                    
                     Text(
                       'Job Details',
                       style: TextStyle(
@@ -123,7 +123,7 @@ class JobDetailsScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
 
-                    // Advertiser section
+                
 
                     ListTile(
                       leading: CircleAvatar(
@@ -139,7 +139,7 @@ class JobDetailsScreen extends StatelessWidget {
                           Text('Bloom'),
                           SizedBox(
                               width:
-                                  10), // Adds space between the text and the icon
+                                  10), 
                           Icon(
                             Icons.check_circle,
                             color: Colors.blue,
