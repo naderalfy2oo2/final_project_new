@@ -33,7 +33,7 @@ class _JobListScreenState extends State<JobListScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            // Header
+            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               child: Row(
@@ -54,7 +54,7 @@ class _JobListScreenState extends State<JobListScreen> {
               ),
             ),
 
-            // Search Bar
+            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
@@ -105,7 +105,7 @@ class _JobListScreenState extends State<JobListScreen> {
               ),
             ),
 
-            // Categories
+            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
               child: SingleChildScrollView(
@@ -125,7 +125,7 @@ class _JobListScreenState extends State<JobListScreen> {
               ),
             ),
 
-            // Results count and layout icon
+            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Row(
@@ -140,7 +140,7 @@ class _JobListScreenState extends State<JobListScreen> {
 
             const SizedBox(height: 8),
 
-            // Job cards grid
+      
             Expanded(
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 12),
