@@ -32,17 +32,17 @@ class HomeScreen extends StatelessWidget {
               TextSpan(
                 text: 'J',
                 style: TextStyle(
-                  color: Colors.blue, // Blue color for "J"
+                  color: Colors.blue, 
                   fontWeight: FontWeight.w500,
-                  fontSize: 25, // Adjust the font size as needed
+                  fontSize: 25, 
                 ),
               ),
               TextSpan(
                 text: 'obland',
                 style: TextStyle(
-                  color: Colors.black, // Black color for the rest of the text
+                  color: Colors.black,
                   fontWeight: FontWeight.w500,
-                  fontSize: 25, // Adjust the font size as needed
+                  fontSize: 25, 
                 ),
               ),
             ],
@@ -50,14 +50,14 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
 
-      // Add other widgets for the home screen
+    
 
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Complaints Banner
+            
             Container(
               width: double.infinity,
               height: 120,
@@ -141,7 +141,7 @@ class HomeScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   _sectionHeader(context, "jobs", () {
-                    // Navigate or show snackbar
+                    
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => JobListScreen()),
@@ -150,9 +150,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: 10),
                   SizedBox(
                     height: 400,
-                    // ارتفاع الكارد
-                    // أو الطول اللي يناسب تصميمك
-                    // أو الطول اللي يناسب ,
+                   
                     width: 400,
 
                     child: ListView(
