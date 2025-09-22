@@ -10,7 +10,7 @@ class JobSeekersScreen extends StatelessWidget {
           color: Colors.white,
           child: Column(
             children: [
-              // Top bar
+              
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Row(
@@ -57,7 +57,7 @@ class JobSeekersScreen extends StatelessWidget {
                 ),
               ),
 
-              // Job categories
+              
               Container(
                 height: 50,
                 padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -72,7 +72,7 @@ class JobSeekersScreen extends StatelessWidget {
                 ),
               ),
 
-              // Results and layout toggle
+              
               Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 12.0, vertical: 8),
@@ -85,7 +85,7 @@ class JobSeekersScreen extends StatelessWidget {
                 ),
               ),
 
-              // Job seeker cards
+              
               Expanded(
                 child: ListView(
                   children: [
@@ -126,7 +126,6 @@ class JobSeekersScreen extends StatelessWidget {
     );
   }
 
-  // Bottom Sheet for Sorting
   void _showSortBottomSheet(BuildContext context) {
     showModalBottomSheet(
       context: context,
@@ -187,7 +186,7 @@ class JobSeekersScreen extends StatelessWidget {
     );
   }
 
-  // Bottom Sheet for Filtering
+  
   void _showFilterBottomSheet(BuildContext context) {
     String selectedDate = "Date of added";
     String selectedCountry = "Country";
@@ -260,7 +259,7 @@ class JobSeekersScreen extends StatelessWidget {
     );
   }
 
-  // Job Category Tile
+  
   Widget jobCategoryTile(IconData icon, String title, bool isSelected) {
     return Container(
       margin: EdgeInsets.only(right: 10),
@@ -284,7 +283,7 @@ class JobSeekersScreen extends StatelessWidget {
     );
   }
 
-  // Job Card Widget
+  
   Widget jobCard({
     required String imageAsset,
     required String name,
