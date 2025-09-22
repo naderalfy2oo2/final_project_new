@@ -12,7 +12,7 @@ class ReportFormScreen extends StatefulWidget {
 }
 
 class _ReportFormScreenState extends State<ReportFormScreen> {
-  // Controllers
+  
   final TextEditingController nameController = TextEditingController();
   final TextEditingController contactController = TextEditingController();
   final TextEditingController companyController = TextEditingController();
@@ -24,25 +24,25 @@ class _ReportFormScreenState extends State<ReportFormScreen> {
   String? imageBase64;
   String? fileBase64;
 
-  // Fake Database
+
   List<Map<String, String>> fakeDatabase = [];
 
   @override
   void initState() {
     super.initState();
-    _loadAssets(); // تحميل الصور والملفات عند بداية الشاشة
+    _loadAssets(); 
   }
 
   Future<void> _loadAssets() async {
-    // تحميل صورة من assets وتحويلها Base64
+  
     final imgBytes = await rootBundle.load('assets/programming.png');
     imageBase64 = base64Encode(imgBytes.buffer.asUint8List());
 
-    // تحميل ملف من assets (TXT مثلا) وتحويله Base64
+  
     final fileBytes = await rootBundle.load('assets/sample_cv.txt');
     fileBase64 = base64Encode(fileBytes.buffer.asUint8List());
 
-    // Fake Database بعد تحميل الملفات
+
     fakeDatabase = [
       {
         "name": "ahmed",
@@ -70,11 +70,11 @@ class _ReportFormScreenState extends State<ReportFormScreen> {
     setState(() {});
   }
 
-  // Fake API
+  
   Future<bool> fakeApi() async {
-    await Future.delayed(const Duration(seconds: 1)); // simulate delay
+    await Future.delayed(const Duration(seconds: 1)); 
 
-    // قيم المستخدم المدخلة بعد التنظيف
+    
     final input = {
       "name": nameController.text.trim().toLowerCase(),
       "contact": contactController.text.trim(),
