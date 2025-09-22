@@ -27,7 +27,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
     final birthDate = birthDateController.text.trim();
     final gender = genderController.text.trim();
 
-    // ✅ Debug console
+    
     print("📌 Email: $email");
     print("📌 Password: $password");
     print("📌 Phone: $phone");
